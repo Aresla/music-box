@@ -1,0 +1,27 @@
+{
+  "name": "layout-designer-project-lvl2",
+  "version": "1.0.0",
+  "description": "HTML5/CSS Boilerplate with HTMLHint and StyleLint",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hexlet-boilerplates/html-boilerplate.git"
+  },
+  "main": "",
+  "devDependencies": {
+    "htmlhint": "^0.14.2",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.49.7",
+    "stylelint": "^13.8.0",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-order": "^4.1.0",
+    "surge": "^0.21.7"
+  },
+  "scripts": {
+    "build": "parcel build src/index.html",
+    "dev": "parcel src/index.html --open",
+    "start": "npm run build && npm run dev"
+  },
+  "author": "Tatiana Panteleychuk",
+  "license": "ISC"
+}

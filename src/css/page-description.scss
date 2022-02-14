@@ -1,0 +1,125 @@
+@import "variables";
+
+.page-description-background {
+  width: 100%;
+  background-image: url('../images/banner.png');
+  background-position: center;
+  background-size: cover;
+}
+
+#page-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  color: #FFFFFF;
+}
+
+.page-description-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.instruction {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font: 16px/1.5 Roboto, serif;
+  margin-top: 31px;
+}
+
+.subscribe-section {
+  text-align: center;
+  width: 100%;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.page-description-forms {
+  display: inline-flex;
+  flex-direction: column;
+  margin-top: 17px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.form-inputs {
+  display: inline-flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 1.5rem;
+  color: #FFFFFF;
+}
+
+form input {
+  min-width: 270px;
+  min-height: 50px;
+  padding-left: 20px;
+  border: 2px solid $darkgrey;
+  border-radius: 3px;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+
+form input::placeholder {
+  color: #FFFFFF;
+}
+
+.access-button {
+  padding: 20px 30px;
+  border-radius: 5px;
+  background: $green;
+  text-transform: uppercase;
+}
+
+.bright-color {
+  color: #FFFFFF;
+}
+
+@media (max-width: 770px) {
+  .instruction {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin-top: 31px;
+  }
+  .page-description-forms {
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+    //width: calc(100% - 40px);
+    margin-top: 17px;
+  }
+  .form-inputs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 24px;
+    margin-bottom: 1.5rem;
+    color: #FFFFFF;
+  }
+  form input {
+    flex: 1;
+    height: 50px;
+    width: 100%;
+    padding-left: 20px;
+    border: 2px solid $darkgrey;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: transparent;
+  }
+}
+
+
