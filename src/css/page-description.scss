@@ -77,14 +77,17 @@ form input::placeholder {
   color: #FFFFFF;
 }
 
-.access-button {
+.btn {
   padding: 20px 30px;
   border-radius: 5px;
-  background: $green;
   text-transform: uppercase;
 }
 
-.bright-color {
+.bg-color {
+  background: $green;
+}
+
+.bright-text-color {
   color: #FFFFFF;
 }
 
@@ -99,7 +102,6 @@ form input::placeholder {
     display: inline-flex;
     flex-direction: column;
     width: 100%;
-    //width: calc(100% - 40px);
     margin-top: 17px;
   }
   .form-inputs {
