@@ -6,14 +6,7 @@
   padding-top: 100px;
 }
 
-.page-news-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 1200px;
-  width: 100%;
-}
-.page-news-content h2 {
+.page-content h2 {
   margin-bottom: 48px;
 }
 
@@ -75,8 +68,12 @@ h3 {
   font: normal 12px/1.6 Roboto, sans-serif;
 }
 
-.second-news{
+.second-news {
   margin-top: 65px;
+}
+
+.second-news-content {
+  margin-left: 0;
 }
 
 @media (max-width: 770px) {

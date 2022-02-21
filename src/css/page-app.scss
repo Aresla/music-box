@@ -1,0 +1,50 @@
+@import "variables";
+
+#page-app {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+
+.page-app-content {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-items: center;
+  width: 100%;
+  gap: 144px;
+  margin-top: 48px;
+  margin-bottom: 16px;
+}
+
+.page-app-contents {
+  max-width: 600px;
+  padding-top: 16px;
+}
+
+.page-app-content-text {
+  font: 16px/1.5 Roboto, sans-serif;
+}
+
+.page-app-btn {
+  width: 131px;
+  height: 53px;
+  margin-top: 16px;
+  border-radius: 32px;
+  padding: 16px 40px;
+  background: #95390C;
+}
+
+.page-app-btn a {
+  font: 12.8px/19.2px Roboto, sans-serif;
+  color: #FFFFFF;
+}
+
+@media (max-width: 770px) {
+  .page-app-content {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 16px;
+  }
+}
