@@ -16,15 +16,6 @@
   color: #FFFFFF;
 }
 
-.page-description-main {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
-}
-
 .instruction {
   display: flex;
   flex-direction: row;
@@ -84,7 +75,7 @@ form input::placeholder {
 }
 
 .bg-color {
-  background: $green;
+  background-color: $green;
 }
 
 .bright-text-color {
