@@ -2,9 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/app.scss">
     <title>Aresla/layout-designer-project-lvl2</title>
 </head>
 <body>
-
+  <div class="main-container">
+      <div id="page-description" class="artist-background">
+          <div class="content-wrapper align-left">
+              <header>
+                  <div class="header-left">
+                      <div class="sign-plus-music-box">
+                          <img alt="musical sign" src="images/logo.svg" class="musical-sign">
+                          <div class="music-box">MUSIC BOX</div>
+                      </div>
+                      <div class="header-navigation">
+                          <div class="bright-text-color">ГЛАВНАЯ</div>
+                          <div>КАТАЛОГ</div>
+                          <div class="bright-text-color">ИСПОЛНИТЕЛИ</div>
+                          <div>КОНТАКТЫ</div>
+                      </div>
+                  </div>
+                  <input type="text" placeholder=" ПОИСК..." class="search-form">
+              </header>
+              <div class="artist-description">
+                  <div class="artist-description-content">
+                      <h1 class="artist-name">Morten Harket</h1>
+                      <p>24 875 поклонников</p>
+                      <div class="artist-buttons">
+                          <button type="submit" class="btn purple-background">
+                              <a href="#">
+                                  <div class="btn-content">
+                                      <img alt="play sign" src="images/play-button.svg" class="sign">
+                                      <span>МИКС</span>
+                                  </div>
+                              </a>
+                          </button>
+                          <button type="submit" class="btn red-background">
+                              <a href="#">
+                                  <div class="btn-content">
+                                      <img alt="heart sign" src="images/heart.svg" class="sign">
+                                      <span>В ИЗБРАННОЕ</span>
+                                  </div>
+                              </a>
+                          </button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
 </body>
 </html>
