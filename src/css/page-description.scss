@@ -7,6 +7,13 @@
   background-size: cover;
 }
 
+.artist-background {
+  width: 100%;
+  background-image: url('../images/Morten Harket.png');
+  background-position: center;
+  background-size: cover;
+}
+
 #page-description {
   display: flex;
   flex-direction: column;
@@ -68,18 +75,71 @@ form input::placeholder {
   color: #FFFFFF;
 }
 
-.btn {
-  padding: 20px 30px;
-  border-radius: 5px;
-  text-transform: uppercase;
-}
-
 .bg-color {
   background-color: $green;
 }
 
 .bright-text-color {
   color: #FFFFFF;
+}
+
+.artist-description {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+
+.content-wrapper-artist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.artist-name {
+  margin-bottom: 16px;
+}
+
+.artist-description-content p {
+  margin: 16px 0 38px;
+  font: 16px/1.5 Roboto, serif;
+}
+
+.artist-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  border-color: transparent;
+}
+.artist-buttons button {
+  height: 62px;
+  width: 200px;
+}
+
+.btn-content {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  justify-items: flex-start;
+  align-items: center;
+  font: 12.8px/1.5 Roboto, serif;
+}
+
+.sign {
+  height: 20px;
+  filter: invert(100%);
+}
+
+.red-background {
+  background-color: $red;
+}
+
+.purple-background {
+  background-color: $purple;
 }
 
 @media (max-width: 770px) {
@@ -112,6 +172,11 @@ form input::placeholder {
     border-radius: 3px;
     box-sizing: border-box;
     background-color: transparent;
+  }
+  .artist-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
 
