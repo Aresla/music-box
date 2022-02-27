@@ -1,0 +1,37 @@
+@import "variables";
+
+#page-discography {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.discography-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 48px;
+  gap: 50px;
+  row-gap: 25px;
+}
+
+.align-start {
+  align-self: flex-start;
+}
+
+.discography-item img {
+  height: 250px;
+  width: 250px;
+}
+
+h3 {
+  font: bold 18px/1.5 Roboto, serif;
+  text-transform: uppercase;
+}
+
+@media (max-width: 770px) {
+  .discography-item img {
+    height: 137px;
+    width: 137px;
+  }
+}
