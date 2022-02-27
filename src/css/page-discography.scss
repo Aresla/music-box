@@ -34,4 +34,11 @@ h3 {
     height: 137px;
     width: 137px;
   }
+  .discography-item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 137px;
+  }
 }
+
