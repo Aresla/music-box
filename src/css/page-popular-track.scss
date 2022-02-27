@@ -1,0 +1,69 @@
+@import "variables";
+
+#page-popular-track {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+h3 {
+  font: bold 12.8px/19.2px Roboto, serif;
+  margin: 0;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.tracks-list {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
+  row-gap: 25px;
+  margin-top: 48px;
+}
+
+.popular-track {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.left-side img {
+  width: 55px;
+  height: 55px;
+}
+
+.track-info {
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+}
+
+.track-info p {
+  margin-block: 0;
+  font: 12.8px/19.2px Roboto, serif;
+}
+
+.track-duration {
+  margin-right: 50px;
+}
+
+@media (max-width: 770px) {
+  .tracks-list {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    row-gap: 25px;
+    margin-top: 48px;
+  }
+  .track-duration {
+    margin-right: 0;
+  }
+}
