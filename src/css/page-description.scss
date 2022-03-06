@@ -138,7 +138,7 @@ form input::placeholder {
   background-color: $purple;
 }
 
-@media (max-width: 770px) {
+@media (max-width: 414px) {
   .instruction {
     display: flex;
     flex-direction: column;
